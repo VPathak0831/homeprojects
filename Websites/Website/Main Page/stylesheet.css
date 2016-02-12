@@ -1,0 +1,43 @@
+.headercontent {
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+	background: #579BB2;
+}
+
+.nav {
+	margin-top: 20px;
+	height: 40px;
+	background: #B0EBFF;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+.nav ul li {
+	list-style: none;
+}
+.nav ul li {
+	text-decoration: none;
+	display: block;
+	padding: 10px 20px;
+	color: #579BB2;
+	text-align: center;
+}
+.nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+.nav ul li a:hover {
+	color: white;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+	margin-top: -37px;
+}
+body {
+	background: url(https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9a5f9deea2b4c2c1eeaf84265913f20f)
+}

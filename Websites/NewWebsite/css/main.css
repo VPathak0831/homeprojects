@@ -1,0 +1,125 @@
+body {
+	background: url(https://images.unsplash.com/photo-1443916765281-9937110585db?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=78640ffe8327b5e45f62c5258bc1a843);
+	background-size: cover;
+}
+
+.top { /*This is where the nav bar begins*/
+	margin-top: 20px;
+	height: 40px;
+	background: #B0EBFF;
+	opacity: 0.5;
+}
+
+.top ul {
+	margin: 0;
+	padding: 0;
+}
+
+.top ul li {
+	display: block;
+	color: #579BB2;
+	text-align: center;
+	list-style: none;
+	padding: 10px 20px;
+	opacity: 1.0;
+}
+
+.top ul li a:hover {
+	color: white;
+	opacity: 1.0;
+}
+
+.top ul li a {
+	text-decoration: none;
+	color: #579BB2;
+	opacity: 1.0;
+}
+
+.left {
+	float: left;
+
+}
+
+.right {
+	float: right;
+	margin-top: -37px;
+} /*This is where the nav bar ends*/
+
+.bio { /*This is where the bio begins*/
+	text-align: center;
+}
+
+.bio p {
+	font-family: Josefin Sans;
+	font-size: 2em;
+} /*This is where the bio ends*/
+
+.project { /*This is where the project previews start*/
+	display: inline-block;
+	padding-top: 200px;
+	text-align: center;
+	float: center;
+}
+
+#project-left {
+	padding-right: 125px;
+}
+
+#project-right {
+	margin-top: 150px;
+	float: right;
+}
+
+#project-center {
+	float: center;
+} /*This is where the project previews end*/
+
+.links {
+	margin-top: 150px;
+	height: 40px;
+	background: #B0EBFF;
+	opacity: 0.5;
+	float: bottom;
+}
+
+.links ul li a {
+	text-decoration: none;
+	color: #579BB2;
+	opacity: 1.0;
+}
+
+.links ul li a:hover {
+	color: white;
+}
+
+.links ul {
+	margin: 0;
+	padding: 0;
+}
+
+.links ul li {
+	display: block;
+	color: #579BB2;
+	text-align: center;
+	list-style: none;
+	padding: 10px 20px;
+	opacity: 1.0;
+	font-size: 1.5em;
+}
+
+.twitter {
+	float: left;
+}
+
+.facebook {
+	text-align: center;
+	margin-bottom: -15px;
+}
+
+.reddit {
+	float: right;
+	margin-top: -30px;
+}
+
+
+
